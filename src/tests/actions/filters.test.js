@@ -21,7 +21,7 @@ test('should generate set end date action object', () => {
 test('should generate text filter object for default value', () => {
     const action = setTextFilter();
     expect(action).toEqual({
-        type: 'TEXT_FILTER',
+        type: 'SET_TEXT_FILTER',
         text: ''
     })
 });
@@ -29,7 +29,7 @@ test('should generate text filter object for default value', () => {
 test('should generate text filter object for given value', () => {
     const action = setTextFilter('random');
     expect(action).toEqual({
-        type: 'TEXT_FILTER',
+        type: 'SET_TEXT_FILTER',
         text: 'random'
     })
 });
