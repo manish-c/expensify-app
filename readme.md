@@ -1,7 +1,3 @@
-# Git Commands
+# Expensify App
 
-git init - Create a ner git repo
-git status - View the changes to your project code
-git add - Add files to staging area
-git commit - Creates a new commit with files from staging area
-git log - View recent commits
+An expense manager app featuring authentication, user accounts, routing, testing, form validation and database storage. 
