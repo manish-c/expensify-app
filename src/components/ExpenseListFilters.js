@@ -13,7 +13,7 @@ export class ExpenseListFilters extends React.Component {
   };
   onFocusChange = (calendarFocused) => {
     this.setState(() => ({ calendarFocused }));
-  }
+  };
   onTextChange = (e) => {
     this.props.setTextFilter(e.target.value);
   };
@@ -22,7 +22,7 @@ export class ExpenseListFilters extends React.Component {
       this.props.sortByDate();
     } else if (e.target.value === 'amount') {
       this.props.sortByAmount();
-    }
+    };
   };
   render() {
     return (
@@ -62,14 +62,9 @@ export class ExpenseListFilters extends React.Component {
             />
           </div>
         </div>
-
-
-
-
-
       </div>
     );
-  }
+  };
 };
 
 const mapStateToProps = (state) => ({
