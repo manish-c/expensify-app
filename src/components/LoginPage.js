@@ -13,8 +13,8 @@ export const LoginPage = ({ startLogin }) => (
     </div>
 );
 
-const maoDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = (dispatch) => ({
     startLogin: () => dispatch(startLogin())
 });
 
-export default connect(undefined, maoDispatchToProps)(LoginPage);
+export default connect(undefined, mapDispatchToProps)(LoginPage);
